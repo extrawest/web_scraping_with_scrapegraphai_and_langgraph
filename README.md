@@ -20,7 +20,6 @@ https://github.com/user-attachments/assets/a6b5abaa-980e-481b-b57b-0846e64ccc80
 
 - **LLM-Powered Extraction**: Uses OpenAI models to intelligently extract content based on natural language instructions
 - **Parallel Processing**: Processes multiple URLs simultaneously using LangGraph's fan-out pattern
-- **Browser Automation**: Uses Playwright for reliable browser-based scraping
 - **Flexible Prompting**: Customizable prompts for different scraping scenarios
 - **Local Processing Control**: No remote servers continuing to consume credits
 - **Progress Tracking**: Real-time progress updates during scraping

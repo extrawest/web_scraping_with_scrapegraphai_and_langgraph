@@ -171,7 +171,7 @@ def scraper(state: OverallState, config: Dict[str, Any]) -> Dict[str, Any]:
     prompt = (
         f"Extract information related to '{keyword}'. Summarize the key points concisely. "
         f"If the keyword is not mentioned or relevant, state that clearly."
-        f"Add source url where you found keyword."
+        f"Add full source url without modification where you found keyword."
     )
 
     graph_config = {
