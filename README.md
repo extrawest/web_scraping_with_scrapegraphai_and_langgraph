@@ -87,6 +87,9 @@ The script uses a LangGraph workflow with ScrapeGraphAI to orchestrate the web s
 
 ## 🔄 LangGraph Workflow
 
+![langgraph_visualization](https://github.com/user-attachments/assets/f10f84db-0436-410e-8d67-cd60d8f8e87e)
+
+
 The script uses LangGraph to create a structured workflow with the following nodes:
 
 - `initialize_state`: Sets up the initial state with URLs and keyword
@@ -104,16 +107,3 @@ ScrapeGraphAI offers several advantages over Firecrawl:
 2. **Local Processing Control**: No remote servers continuing to consume credits
 3. **More Flexible Scraping**: Natural language instructions allow for more nuanced content extraction
 4. **Direct LLM-based Content Extraction**: Extracts content without requiring multiple API calls
-
-## 🔧 Customization
-
-### OpenAI Model
-
-By default, the script uses the GPT-4o model. You can change this by modifying the `model` parameter in the `scraper` function:
-
-```python
-scraper_client = ScrapeGraphAI(
-    api_key=settings.openai_api_key,
-    model="gpt-4o",  # Change to your preferred model
-)
-```
