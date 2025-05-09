@@ -1,0 +1,12 @@
+python-dotenv
+langchain
+langchain_community
+langchain_openai
+langgraph
+scrapegraphai
+nest_asyncio
+playwright
+typing_extensions
+IPython
+pydantic_settings
+pygraphviz
