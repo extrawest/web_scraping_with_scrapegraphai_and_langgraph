@@ -114,3 +114,5 @@ ScrapeGraphAI offers several advantages over Firecrawl:
 2. **Local Processing Control**: No remote servers continuing to consume credits
 3. **More Flexible Scraping**: Natural language instructions allow for more nuanced content extraction
 4. **Direct LLM-based Content Extraction**: Extracts content without requiring multiple API calls
+
+Developed by [extrawest](https://extrawest.com/). Software development company
